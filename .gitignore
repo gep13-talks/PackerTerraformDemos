@@ -350,3 +350,6 @@ BuildArtifacts/*
 
 # Vagrant
 .vagrant
+
+# iso files
+*.iso
