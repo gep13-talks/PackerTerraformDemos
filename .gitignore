@@ -347,3 +347,6 @@ BuildArtifacts/*
 
 # Terraform
 .terraform
+
+# Vagrant
+.vagrant
