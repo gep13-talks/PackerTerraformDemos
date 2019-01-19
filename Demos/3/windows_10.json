@@ -80,6 +80,13 @@
       "type": "powershell"
     },
     {
+      "scripts": [
+        "./scripts/InstallChocolatey.ps1",
+        "./scripts/InstallRequiredApplications.ps1"
+      ],
+      "type": "powershell"
+    },
+    {
       "execute_command": "{{ .Vars }} cmd /c \"{{ .Path }}\"",
       "remote_path": "/tmp/script.bat",
       "scripts": [
