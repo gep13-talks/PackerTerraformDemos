@@ -31,6 +31,8 @@ Press F to view slideshow in fullscreen mode.
 @snap[east span-70]
 bob
 
+---?terminal=assets/sessions/vagrant-up.cast&color=#7FDBFF&font=small&title=vagrant up
+
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What is Packer?]
 
@@ -52,6 +54,19 @@ bob
 
 @snap[east span-70]
 bob
+
+---?code=Demos/1/first_run.json&lang=json
+
+@[25-29](Init Spark cluster data source)
+@[41-53](Build RDD[AWSTask] from source)
+
+---?terminal=assets/sessions/packer-validate.cast&color=#7FDBFF&font=small&title=packer validate
+
+---?terminal=assets/sessions/packer-build-aws.cast&color=#7FDBFF&font=small&title=packer build - Windows on AWS
+
+---?terminal=assets/sessions/packer-build-parallel.cast&color=#7FDBFF&font=small&title=packer build - Linux on AWS and DigitalOcean
+
+---?terminal=assets/sessions/packer-build-virtualbox.cast&color=#7FDBFF&font=small&title=packer build - virtualbox to vagrant
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What is Terraform?]

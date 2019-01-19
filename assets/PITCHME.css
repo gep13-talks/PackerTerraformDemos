@@ -238,10 +238,6 @@ div.docslink a:hover {
     background: rgba(255,255,255,0.2);
 }
 
-.reveal p span.slide-title {
-  display: none;
-}
-
 .reveal .slides section .code-presenting-annotation {
   color: white;
   background: black;
