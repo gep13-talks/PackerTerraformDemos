@@ -31,6 +31,12 @@ Press F to view slideshow in fullscreen mode.
 @snap[east span-70]
 bob
 
+---?code=Vagrantfile
+
+@[3-4](Base VM Setup)
+@[22-27](VM Configuration)
+@[32-36](Provisioning Scripts)
+
 ---?terminal=assets/sessions/vagrant-up.cast&color=#7FDBFF&font=small&title=vagrant up
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
@@ -55,16 +61,32 @@ bob
 @snap[east span-70]
 bob
 
+---?terminal=assets/sessions/packer-validate.cast&color=#7FDBFF&font=small&title=packer validate
+
 ---?code=Demos/1/first_run.json&lang=json
 
-@[25-29](Init Spark cluster data source)
-@[41-53](Build RDD[AWSTask] from source)
+@[2-6](Packer variables)
+@[7-13](Packer Builder)
+@[30-40](Inline PowerShell Provisioner)
+@[44-53](PowerShell Script Provisioner)
 
----?terminal=assets/sessions/packer-validate.cast&color=#7FDBFF&font=small&title=packer validate
 
 ---?terminal=assets/sessions/packer-build-aws.cast&color=#7FDBFF&font=small&title=packer build - Windows on AWS
 
+---?code=Demos/2/first_run.json&lang=json
+
+@[2-8](Packer variables)
+@[10-27](Amazon EBS Builder)
+@[28-35](DigitalOcean Builder)
+@[37-46](Shell Provisioner)
+
 ---?terminal=assets/sessions/packer-build-parallel.cast&color=#7FDBFF&font=small&title=packer build - Linux on AWS and DigitalOcean
+
+---?code=Demos/3/windows_10.json&lang=json
+
+@[8-26](Virtualbox ISO Builder)
+@[47-54](Post-Processor)
+@[103-114](Packer Variables)
 
 ---?terminal=assets/sessions/packer-build-virtualbox.cast&color=#7FDBFF&font=small&title=packer build - virtualbox to vagrant
 
@@ -89,6 +111,19 @@ bob
 
 @snap[east span-70]
 bob
+
+---?code=Demos/4/variables.tf
+
+---?code=Demos/4/example.tf
+
+@[1-5](Provider definition)
+@[7-14](Main resource definition)
+@[16-18](IP Address resource)
+@[20-22](Output variable)
+
+---?terminal=assets/sessions/terraform-apply.cast&color=#7FDBFF&font=small&title=terraform apply
+
+---?terminal=assets/sessions/terraform-destroy.cast&color=#7FDBFF&font=small&title=terraform destroy
 
 ---
 
