@@ -2,7 +2,7 @@
   "variables": {
     "aws_access_key": "{{env `GEP13_AWS_ACCESS_KEY_ID`}}",
     "aws_secret_key": "{{env `GEP13_AWS_SECRET_ACCESS_KEY`}}",
-    "region":         "eu-west-2"
+    "region": "eu-west-2"
   },
   "builders": [
     {
