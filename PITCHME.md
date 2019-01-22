@@ -125,6 +125,12 @@ bob
 
 ---?terminal=assets/sessions/terraform-destroy.cast&color=#7FDBFF&font=small&title=terraform destroy
 
+---?terminal=assets/sessions/vagrant-box-add.cast&color=#7FDBFF&font=small&title=vagrant box add
+
+---?terminal=assets/sessions/vagrant-up-local.cast&color=#7FDBFF&font=small&title=vagrant up local
+
+---?terminal=assets/sessions/vagrant-destroy.cast&color=#7FDBFF&font=small&title=vagrant destroy
+
 ---
 
 @title[Who Am I? - Gary Ewan Park]
