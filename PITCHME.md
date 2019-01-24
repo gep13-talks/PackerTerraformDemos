@@ -5,16 +5,16 @@
 @box[bg-orange text-white rounded demo-box-pad](How to create a system of Immutable Infrastructure)
 @snapend
 
-@snap[north-east text-04 text-gray text-smallcaps]
-@box[bg-orange text-white rounded demo-box-pad](Press F to view slideshow in fullscreen mode.)
-@snapend
-
 ---?color=#7FDBFF
-@title[Slides]
+@title[Slides and Code]
 
 ## Slides
 
-### https://gep13.me/ptdemos
+### https://gep13.me/ptslides
+
+## Code
+
+### https://gep13.me/ptcode
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What is Immutable Infrastructure?]
@@ -37,6 +37,55 @@
 
 @snap[east span-70]
 @quote[An immutable infrastructure is another infrastructure paradigm in which servers are never modified after they're deployed. If something needs to be updated, fixed, or modified in any way, new servers built from a common image with the appropriate changes are provisioned to replace the old ones. After they're validated, they're put into use and the old ones are decommissioned.](Digital Ocean Tutorial)
+
+---?color=#C8A2BB
+
+@quote[In the old way of doing things, we treat our servers like pets, for example Bob the mail server. If Bob goes down, it’s all hands on deck. The CEO can’t get his email and it’s the end of the world. In the new way, servers are numbered, like cattle in a herd. For example, www001 to www100. When one server goes down, it’s taken out back, shot, and replaced on the line.](Randy Bias)
+
+@size[0.5em](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/)
+
+---?color=#C8A2BB
+
+@quote[Snowflake servers are similar to pets. They are servers that are managed by hand, frequently updated and tweaked in place, leading to a unique environment.](Digital Ocean Tutorial)
+
+@snap[south]
+@size[0.5em](https://martinfowler.com/bliki/SnowflakeServer.html)
+@snapend
+
+---?color=#C8A2BB
+@quote[Phoenix servers are similar to cattle. They are servers that are always built from scratch and are easy to recreate, or "rise from the ashes", through automated procedures.](Digital Ocean Tutorial)
+
+@snap[south]
+@size[0.5em](https://martinfowler.com/bliki/PhoenixServer.html)
+@snapend
+
+---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+@title[What are the benefits Immutable Infrastructure?]
+
+@snap[west h4-white]
+#### Question
+@snapend
+
+@snap[east span-80]
+#### What are the benefits of
+## @css[text-gold text-bold](Immutable Infrastructure )@fa[question]
+@snapend
+
+---?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
+@title[Immutable Infrastructure]
+
+@snap[west h4-white]
+#### Answer
+@snapend
+
+@snap[east span-70]
+@ul
+- Fewer deployment failures
+- No configuration drift
+- Consistent staging environments
+- Simple rollback and recovery processes
+@ulend
+@snapend
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What is Vagrant?]
@@ -77,7 +126,7 @@
 
 ### Create Vagrant VM
 
----?terminal=assets/sessions/vagrant-up.cast&color=#7FDBFF&font=small&title=vagrant up
++++?terminal=assets/sessions/vagrant-up.cast&color=#7FDBFF&font=small&title=vagrant up
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What is Packer?]
@@ -112,7 +161,7 @@
 @[30-40](Inline PowerShell Provisioner)
 @[44-53](PowerShell Script Provisioner)
 
----?terminal=assets/sessions/packer-validate.cast&color=#7FDBFF&font=small&title=packer validate
++++?terminal=assets/sessions/packer-validate.cast&color=#7FDBFF&font=small&title=packer validate
 
 ---?color=beige
 @title[Demo - Packer]
@@ -121,7 +170,7 @@
 
 ### Run packer to generate Amazon AMI
 
----?terminal=assets/sessions/packer-build-aws.cast&color=#7FDBFF&font=small&title=packer build - Windows on AWS
++++?terminal=assets/sessions/packer-build-aws.cast&color=#7FDBFF&font=small&title=packer build - Windows on AWS
 
 ---?code=Demos/2/first_run.json&lang=json&title=Parallel packer build
 @title[Parallel packer build]
@@ -138,7 +187,7 @@
 
 ### Run packer in parallel
 
----?terminal=assets/sessions/packer-build-parallel.cast&color=#7FDBFF&font=small&title=packer build - Linux on AWS and DigitalOcean
++++?terminal=assets/sessions/packer-build-parallel.cast&color=#7FDBFF&font=small&title=packer build - Linux on AWS and DigitalOcean
 
 ---?code=Demos/3/windows_10.json&lang=json&title=Virtualbox packer build
 @title[Virtualbox packer build]
@@ -155,7 +204,7 @@
 
 ### Generate Virtualbox box
 
----?terminal=assets/sessions/packer-build-virtualbox.cast&color=#7FDBFF&font=small&title=packer build - virtualbox to vagrant
++++?terminal=assets/sessions/packer-build-virtualbox.cast&color=#7FDBFF&font=small&title=packer build - virtualbox to vagrant
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What is Terraform?]
@@ -201,7 +250,7 @@
 
 ### Running Terraform Apply
 
----?terminal=assets/sessions/terraform-apply.cast&color=#7FDBFF&font=small&title=terraform apply
++++?terminal=assets/sessions/terraform-apply.cast&color=#7FDBFF&font=small&title=terraform apply
 
 ---?color=beige
 @title[Demo - Terraform Destroy]
@@ -210,27 +259,33 @@
 
 ### Running Terraform Destroy
 
----?terminal=assets/sessions/terraform-destroy.cast&color=#7FDBFF&font=small&title=terraform destroy
++++?terminal=assets/sessions/terraform-destroy.cast&color=#7FDBFF&font=small&title=terraform destroy
 
----?terminal=assets/sessions/vagrant-box-add.cast&color=#7FDBFF&font=small&title=vagrant box add
+---?color=beige
+@title[Demo - Vagrant add]
 
----?terminal=assets/sessions/vagrant-up-local.cast&color=#7FDBFF&font=small&title=vagrant up local
+## Demo
 
----?terminal=assets/sessions/vagrant-destroy.cast&color=#7FDBFF&font=small&title=vagrant destroy
+### Adding newly created box to vagrant
+
++++?terminal=assets/sessions/vagrant-box-add.cast&color=#7FDBFF&font=small&title=vagrant box add
+
++++?terminal=assets/sessions/vagrant-up-local.cast&color=#7FDBFF&font=small&title=vagrant up local
+
++++?terminal=assets/sessions/vagrant-destroy.cast&color=#7FDBFF&font=small&title=vagrant destroy
 
 ---?color=#7FDBFF
-
 @title[Who Am I? - Gary Ewan Park]
-@transition[none]
 
 @snap[north-west]
-@css[choco-blue](WHO AM I?)
+Who am I?
 @snapend
 
 @snap[west span-65]
 Senior Software Engineer @ Chocolatey Software
 <br>
 <br>
+![Chocolatey](assets/img/chocolatey.png)
 ![MVP Logo](assets/img/mvp.jpg)
 ![Cake Build](assets/img/cake.png)
 @snapend
@@ -238,7 +293,9 @@ Senior Software Engineer @ Chocolatey Software
 @snap[east span-30]
 ![Gary Ewan Park](assets/img/gary-avatar.png)
 <br>
-@css[bio-name](Gary Ewan Park)
+
+Gary Ewan Park
+
 @snapend
 
 @snap[south-west bio-contact]
@@ -262,8 +319,12 @@ Twitter: @gep13
 Web: https://gep13.co.uk
 
 ---?color=#7FDBFF
-
 @title[Resources]
+
 ## Resources
 
+* [Introduction to Packer](https://www.packer.io/intro/index.html)
+* [Introduction to Terraform](https://www.terraform.io/intro/index.html)
+* [Introduction to Vagrant](https://www.vagrantup.com/intro/index.html)
+* [Chocolatey Documentation](https://chocolatey.org/docs)
 * [What is Immutable Infrastructure - Digital Ocean](https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructure)

@@ -17,3 +17,4 @@ choco upgrade vscode-autohotkey -y
 choco upgrade googlechrome -y
 choco upgrade packer -y
 choco install terraform -y
+choco install git -y

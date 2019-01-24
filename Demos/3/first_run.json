@@ -1,0 +1,47 @@
+{
+  "variables": {
+    "aws_access_key": "{{env `GEP13_AWS_ACCESS_KEY_ID`}}",
+    "aws_secret_key": "{{env `GEP13_AWS_SECRET_ACCESS_KEY`}}",
+    "do_api_token": "{{env `GEP13_DO_API_TOKEN`}}",
+    "aws_region": "eu-west-2",
+    "do_region": "LON1"
+  },
+  "builders": [
+    {
+      "type": "amazon-ebs",
+      "access_key": "{{user `aws_access_key`}}",
+      "secret_key": "{{user `aws_secret_key`}}",
+      "region": "{{user `aws_region`}}",
+      "source_ami_filter": {
+        "filters": {
+          "virtualization-type": "hvm",
+          "name": "ubuntu/images/*ubuntu-xenial-16.04-amd64-server-*",
+          "root-device-type": "ebs"
+        },
+        "owners": ["099720109477"],
+        "most_recent": true
+      },
+      "instance_type": "t2.micro",
+      "ssh_username": "ubuntu",
+      "ami_name": "packer-example {{timestamp}}"
+    },
+    {
+      "type": "digitalocean",
+      "api_token": "{{user `do_api_token`}}",
+      "image": "ubuntu-14-04-x64",
+      "region": "{{user `do_region`}}",
+      "size": "512mb",
+      "ssh_username": "root"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "inline": [
+        "sleep 30",
+        "sudo apt-get update",
+        "sudo apt-get install -y redis-server"
+      ]
+    }
+  ]
+}
