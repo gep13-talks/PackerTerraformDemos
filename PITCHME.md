@@ -38,13 +38,13 @@
 @snap[east span-70]
 @quote[An immutable infrastructure is another infrastructure paradigm in which servers are never modified after they're deployed. If something needs to be updated, fixed, or modified in any way, new servers built from a common image with the appropriate changes are provisioned to replace the old ones. After they're validated, they're put into use and the old ones are decommissioned.](Digital Ocean Tutorial)
 
----?color=#C8A2BB
+---
 
 @quote[In the old way of doing things, we treat our servers like pets, for example Bob the mail server. If Bob goes down, it’s all hands on deck. The CEO can’t get his email and it’s the end of the world. In the new way, servers are numbered, like cattle in a herd. For example, www001 to www100. When one server goes down, it’s taken out back, shot, and replaced on the line.](Randy Bias)
 
 @size[0.5em](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/)
 
----?color=#C8A2BB
+---
 
 @quote[Snowflake servers are similar to pets. They are servers that are managed by hand, frequently updated and tweaked in place, leading to a unique environment.](Digital Ocean Tutorial)
 
@@ -52,7 +52,7 @@
 @size[0.5em](https://martinfowler.com/bliki/SnowflakeServer.html)
 @snapend
 
----?color=#C8A2BB
+---
 @quote[Phoenix servers are similar to cattle. They are servers that are always built from scratch and are easy to recreate, or "rise from the ashes", through automated procedures.](Digital Ocean Tutorial)
 
 @snap[south]
