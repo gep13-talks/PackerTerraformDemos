@@ -1,4 +1,4 @@
-{"version": 2, "width": 140, "height": 47, "timestamp": 1548192904, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+{"version": 2, "width": 129, "height": 26, "timestamp": 1548192904, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
 [0.062495, "o", "\u001b[?1034hgep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/5\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:35 $ "]
 [1.309935, "o", "v"]
 [1.551555, "o", "a"]

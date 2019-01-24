@@ -7,7 +7,7 @@
 # For further details, see https://gitpitch.com/docs/settings.
 #
 
-published : false
+published : true
 
 #
 # Theme Setting
@@ -51,6 +51,6 @@ transition : none
 # Twitter Card Settings
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "How to Create a System of Immutable Infrastructure"
+title : "How to create a system of Immutable Infrastructure"
 description : "Switching to a system of Immutable Infrastructure means that new machines are provisioned and swapped out with existing machines, which can then be destroyed."
 thumbnail :
