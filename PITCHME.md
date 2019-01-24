@@ -36,7 +36,7 @@
 @snapend
 
 @snap[east span-70]
-bob
+@quote[An immutable infrastructure is another infrastructure paradigm in which servers are never modified after they're deployed. If something needs to be updated, fixed, or modified in any way, new servers built from a common image with the appropriate changes are provisioned to replace the old ones. After they're validated, they're put into use and the old ones are decommissioned.](Digital Ocean Tutorial)
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What is Vagrant?]
@@ -266,4 +266,4 @@ Web: https://gep13.co.uk
 @title[Resources]
 ## Resources
 
-* TODO
+* [What is Immutable Infrastructure - Digital Ocean](https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructure)
