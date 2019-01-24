@@ -274,6 +274,13 @@
 
 +++?terminal=assets/sessions/vagrant-destroy.cast&color=#7FDBFF&font=small&title=vagrant destroy
 
+---?color=beige
+@title[Demo - Bringing it all together]
+
+## Demo
+
+### Bringing it all together
+
 ---?color=#7FDBFF
 @title[Who Am I? - Gary Ewan Park]
 
