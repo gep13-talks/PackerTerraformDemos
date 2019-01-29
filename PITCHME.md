@@ -309,7 +309,7 @@ Gary Ewan Park
 @fa[twitter twitter-blue]&nbsp;&nbsp;gep13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 @fa[github text-black]&nbsp;&nbsp;github.com/gep13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 @fa[home text-blue]&nbsp;&nbsp;gep13.co.uk&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-@fa[envelope choco-blue]&nbsp;&nbsp;gary@chocolatey.io
+@fa[envelope choco-blue]&nbsp;&nbsp;gep13@gep13.co.uk
 @snapend
 
 ---?color=#7FDBFF
@@ -319,7 +319,7 @@ Gary Ewan Park
 
 Feel free to get in touch after the talk.
 
-Email: gary@chocolatey.io
+Email: gep13@gep13.co.uk
 
 Twitter: @gep13
 
