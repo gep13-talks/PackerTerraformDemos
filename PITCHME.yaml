@@ -54,3 +54,5 @@ transition : none
 title : "How to create a system of Immutable Infrastructure"
 description : "Switching to a system of Immutable Infrastructure means that new machines are provisioned and swapped out with existing machines, which can then be destroyed."
 thumbnail :
+
+gatoken : UA-20926037-2
