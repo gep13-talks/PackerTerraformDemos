@@ -1,5 +1,5 @@
-{"version": 2, "width": 129, "height": 26, "timestamp": 1547911989, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
-[0.073176, "o", "\u001b[?1034hgep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/1\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:33 $ "]
+{"version": 2, "width": 129, "height": 20, "timestamp": 1547911989, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.073176, "o", "\u001b[?1034hgep13:\u001b[0;36m~/PackerTerraformDemos/Demos/1\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:33 $ "]
 [1.347663, "o", "p"]
 [1.536226, "o", "a"]
 [1.640057, "o", "c"]
@@ -76,4 +76,4 @@
 [433.685344, "o", "==> Builds finished. The artifacts of successful builds are:\r\n"]
 [433.685849, "o", "--> amazon-ebs: AMIs were created:\r\n"]
 [433.685987, "o", "eu-west-2: ami-06573bee8c40aa111\r\n\r\n"]
-[434.519246, "o", "gep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/1\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:33 $ "]
+[434.519246, "o", "gep13:\u001b[0;36m~//PackerTerraformDemos/Demos/1\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:33 $ "]

@@ -1,5 +1,5 @@
-{"version": 2, "width": 129, "height": 26, "timestamp": 1547912745, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
-[0.073202, "o", "\u001b[?1034hgep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/2\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:45 $ "]
+{"version": 2, "width": 129, "height": 20, "timestamp": 1547912745, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.073202, "o", "\u001b[?1034hgep13:\u001b[0;36m~/PackerTerraformDemos/Demos/2\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:45 $ "]
 [1.289321, "o", "p"]
 [1.456407, "o", "a"]
 [1.556178, "o", "c"]
@@ -240,4 +240,4 @@
 [222.90999, "o", "--> amazon-ebs: AMIs were created:\r\n"]
 [222.910058, "o", "eu-west-2: ami-00d3c87e5489140f5\r\n\r\n"]
 [222.91069, "o", "--> digitalocean: A snapshot was created: 'packer-1547912750' (ID: 42655839) in regions 'LON1'\r\n"]
-[223.635667, "o", "gep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/2\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:45 $ "]
+[223.635667, "o", "gep13:\u001b[0;36m~/PackerTerraformDemos/Demos/2\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:45 $ "]

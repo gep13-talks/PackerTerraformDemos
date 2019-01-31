@@ -1,5 +1,5 @@
-{"version": 2, "width": 129, "height": 26, "timestamp": 1547911745, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
-[0.076198, "o", "\u001b[?1034hgep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/1\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:29 $ "]
+{"version": 2, "width": 129, "height": 20, "timestamp": 1547911745, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.076198, "o", "\u001b[?1034hgep13:\u001b[0;36m~/PackerTerraformDemos/Demos/1\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:29 $ "]
 [0.912136, "o", "p"]
 [1.087996, "o", "a"]
 [1.219997, "o", "c"]
@@ -22,4 +22,4 @@
 [6.07922, "o", "st_run.json "]
 [6.925789, "o", "\r\n"]
 [7.304243, "o", "Template validated successfully.\r\n"]
-[8.172252, "o", "gep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/1\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:29 $ "]
+[8.172252, "o", "gep13:\u001b[0;36m~/PackerTerraformDemos/Demos/1\u001b[0m\u001b[0;31m (master *%) \u001b[0m15:29 $ "]

@@ -1,5 +1,5 @@
-{"version": 2, "width": 129, "height": 26, "timestamp": 1548193153, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
-[0.073884, "o", "\u001b[?1034hgep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/5\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:39 $ "]
+{"version": 2, "width": 129, "height": 20, "timestamp": 1548193153, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.073884, "o", "\u001b[?1034hgep13:\u001b[0;36m~/PackerTerraformDemos/Demos/5\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:39 $ "]
 [1.114146, "o", "v"]
 [1.347979, "o", "a"]
 [1.579816, "o", "g"]
@@ -27,4 +27,4 @@
 [12.753405, "o", "\r\n"]
 [13.443083, "o", "\u001b[1m==> vptdemos5: Forcing shutdown of VM...\u001b[0m\r\n"]
 [14.620774, "o", "\u001b[1m==> vptdemos5: Destroying VM and associated drives...\u001b[0m\r\n"]
-[14.981026, "o", "gep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/5\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:39 $ "]
+[14.981026, "o", "gep13:\u001b[0;36m~/PackerTerraformDemos/Demos/5\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:39 $ "]

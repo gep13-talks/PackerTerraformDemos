@@ -1,5 +1,5 @@
-{"version": 2, "width": 129, "height": 26, "timestamp": 1548191969, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
-[0.085213, "o", "\u001b[?1034hgep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:19 $ "]
+{"version": 2, "width": 129, "height": 20, "timestamp": 1548191969, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.085213, "o", "\u001b[?1034hgep13:\u001b[0;36m~/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:19 $ "]
 [1.148664, "o", "v"]
 [1.427159, "o", "a"]
 [1.676669, "o", "g"]
@@ -28,7 +28,7 @@
 [6.467342, "o", "\u001b[0mbento/ubuntu-18.04                (virtualbox, 201808.24.0)\u001b[0m\r\n"]
 [6.476345, "o", "\u001b[0mferventcoder/win2012r2-x64-nocm   (virtualbox, 1.0.0)\u001b[0m\r\n"]
 [6.485662, "o", "\u001b[0mubuntu/bionic64                   (virtualbox, 20180823.0.0)\u001b[0m\r\n"]
-[6.553571, "o", "gep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:19 $ "]
+[6.553571, "o", "gep13:\u001b[0;36m~/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:19 $ "]
 [7.503578, "o", "v"]
 [7.74406, "o", "a"]
 [7.994805, "o", "g"]
@@ -101,7 +101,7 @@
 [32.091209, "o", "\u001b[0m    box: Progress: 95% (Rate: 656M/s, Estimated time remaining: --:--:--)\u001b[0m"]
 [32.091894, "o", "\u001b[0m\r\u001b[K\u001b[0m"]
 [53.429542, "o", "\u001b[1;32m==> box: Successfully added box 'gep13/PackerDemo' (v0) for 'virtualbox'!\u001b[0m\r\n"]
-[53.506376, "o", "gep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:19 $ "]
+[53.506376, "o", "gep13:\u001b[0;36m~/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:19 $ "]
 [55.770075, "o", "v"]
 [55.97126, "o", "a"]
 [56.160765, "o", "g"]
@@ -131,4 +131,4 @@
 [59.467962, "o", "\u001b[0mferventcoder/win2012r2-x64-nocm   (virtualbox, 1.0.0)\u001b[0m\r\n"]
 [59.476455, "o", "\u001b[0mgep13/PackerDemo                  (virtualbox, 0)\u001b[0m\r\n"]
 [59.479619, "o", "\u001b[0mubuntu/bionic64                   (virtualbox, 20180823.0.0)\u001b[0m\r\n"]
-[59.543238, "o", "gep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:19 $ "]
+[59.543238, "o", "gep13:\u001b[0;36m~/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m21:19 $ "]

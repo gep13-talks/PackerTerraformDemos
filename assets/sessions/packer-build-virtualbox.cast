@@ -1,5 +1,5 @@
-{"version": 2, "width": 129, "height": 26, "timestamp": 1547915067, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
-[0.078145, "o", "\u001b[?1034hgep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m16:24 $ "]
+{"version": 2, "width": 129, "height": 20, "timestamp": 1547915067, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.078145, "o", "\u001b[?1034hgep13:\u001b[0;36m~/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m16:24 $ "]
 [0.799944, "o", "p"]
 [0.968079, "o", "a"]
 [1.063957, "o", "c"]
@@ -992,4 +992,4 @@
 [1836.848705, "o", "\u001b[1;32mBuild 'virtualbox-iso' finished.\u001b[0m\r\n\r\n"]
 [1836.848898, "o", "==> Builds finished. The artifacts of successful builds are:\r\n"]
 [1836.849653, "o", "--> virtualbox-iso: 'virtualbox' provider box: windows_10_virtualbox.box\r\n"]
-[1837.64219, "o", "gep13@MacBook-Pro:\u001b[0;36m~/github/gep13/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m16:24 $ "]
+[1837.64219, "o", "gep13:\u001b[0;36m~/PackerTerraformDemos/Demos/3\u001b[0m\u001b[0;31m (master *%) \u001b[0m16:24 $ "]

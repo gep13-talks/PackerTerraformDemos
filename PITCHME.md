@@ -126,7 +126,7 @@
 
 ### Create Vagrant VM
 
-+++?terminal=assets/sessions/vagrant-up.cast&color=#7FDBFF&font=small&title=vagrant up
++++?terminal=assets/sessions/vagrant-up.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant up
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What is Packer?]
@@ -153,7 +153,7 @@
 @quote[Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration](Packer website)
 @snapend
 
----?code=Demos/1/first_run.json&lang=json&title=Example Packer file
+---?code=Demos/2/first_run.json&lang=json&title=Example Packer file
 @title[Example Packer file]
 
 @[2-6](Packer variables)
@@ -161,7 +161,7 @@
 @[30-40](Inline PowerShell Provisioner)
 @[44-53](PowerShell Script Provisioner)
 
-+++?terminal=assets/sessions/packer-validate.cast&color=#7FDBFF&font=small&title=packer validate
++++?terminal=assets/sessions/packer-validate.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=packer validate
 
 ---?color=beige
 @title[Demo - Packer]
@@ -170,9 +170,9 @@
 
 ### Run packer to generate Amazon AMI
 
-+++?terminal=assets/sessions/packer-build-aws.cast&color=#7FDBFF&font=small&title=packer build - Windows on AWS
++++?terminal=assets/sessions/packer-build-aws.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=packer build - Windows on AWS
 
----?code=Demos/2/first_run.json&lang=json&title=Parallel packer build
+---?code=Demos/3/first_run.json&lang=json&title=Parallel packer build
 @title[Parallel packer build]
 
 @[2-8](Packer variables)
@@ -187,9 +187,9 @@
 
 ### Run packer in parallel
 
-+++?terminal=assets/sessions/packer-build-parallel.cast&color=#7FDBFF&font=small&title=packer build - Linux on AWS and DigitalOcean
++++?terminal=assets/sessions/packer-build-parallel.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=packer build - Linux on AWS and DigitalOcean
 
----?code=Demos/3/windows_10.json&lang=json&title=Virtualbox packer build
+---?code=Demos/4/windows_10.json&lang=json&title=Virtualbox packer build
 @title[Virtualbox packer build]
 
 @[8-18](Floppy files)
@@ -204,7 +204,7 @@
 
 ### Generate Virtualbox box
 
-+++?terminal=assets/sessions/packer-build-virtualbox.cast&color=#7FDBFF&font=small&title=packer build - virtualbox to vagrant
++++?terminal=assets/sessions/packer-build-virtualbox.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=packer build - virtualbox to vagrant
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What is Terraform?]
@@ -232,10 +232,10 @@
 @quote[Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.](Terraform website)
 @snapend
 
----?code=Demos/4/variables.tf&title=Terraform Variables
+---?code=Demos/5/variables.tf&title=Terraform Variables
 @title[Terraform Variables]
 
----?code=Demos/4/example.tf&title=Example Terraform File
+---?code=Demos/5/example.tf&title=Example Terraform File
 @title[Example Terraform file]
 
 @[1-5](Provider definition)
@@ -250,7 +250,7 @@
 
 ### Running Terraform Apply
 
-+++?terminal=assets/sessions/terraform-apply.cast&color=#7FDBFF&font=small&title=terraform apply
++++?terminal=assets/sessions/terraform-apply.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=terraform apply
 
 ---?color=beige
 @title[Demo - Terraform Destroy]
@@ -259,7 +259,7 @@
 
 ### Running Terraform Destroy
 
-+++?terminal=assets/sessions/terraform-destroy.cast&color=#7FDBFF&font=small&title=terraform destroy
++++?terminal=assets/sessions/terraform-destroy.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=terraform destroy
 
 ---?color=beige
 @title[Demo - Vagrant add]
@@ -268,11 +268,11 @@
 
 ### Adding newly created box to vagrant
 
-+++?terminal=assets/sessions/vagrant-box-add.cast&color=#7FDBFF&font=small&title=vagrant box add
++++?terminal=assets/sessions/vagrant-box-add.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant box add
 
-+++?terminal=assets/sessions/vagrant-up-local.cast&color=#7FDBFF&font=small&title=vagrant up local
++++?terminal=assets/sessions/vagrant-up-local.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant up local
 
-+++?terminal=assets/sessions/vagrant-destroy.cast&color=#7FDBFF&font=small&title=vagrant destroy
++++?terminal=assets/sessions/vagrant-destroy.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant destroy
 
 ---?color=beige
 @title[Demo - Bringing it all together]
