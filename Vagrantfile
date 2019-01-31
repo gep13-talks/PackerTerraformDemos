@@ -33,6 +33,7 @@ Vagrant.configure("2") do |config|
     vptdemos.vm.provision :shell, :path => "shell/SetWindowsPreferences.ps1", privileged: false
     vptdemos.vm.provision :shell, :path => "shell/InstallChocolatey.ps1", privileged: false
     vptdemos.vm.provision :shell, :path => "shell/InstallRequiredApplications.ps1", privileged: false
+    vptdemos.vm.provision :shell, :path => "shell/CloneRepository.ps1", privileged: false
     vptdemos.vm.provision :shell, :path => "shell/NotifyGuiAppsOfEnvironmentChanges.ps1", privileged: false
   end
 end
