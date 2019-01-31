@@ -126,7 +126,7 @@
 
 ### Create Vagrant VM
 
-+++?terminal=assets/sessions/vagrant-up.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant up
++++?terminal=assets/sessions/vagrant-up.cast&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant up
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What is Packer?]
@@ -161,7 +161,7 @@
 @[30-40](Inline PowerShell Provisioner)
 @[44-53](PowerShell Script Provisioner)
 
-+++?terminal=assets/sessions/packer-validate.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=packer validate
++++?terminal=assets/sessions/packer-validate.cast&theme=solarized-light&color=#7FDBFF&font=medium&title=packer validate
 
 ---?color=beige
 @title[Demo - Packer]
@@ -170,7 +170,7 @@
 
 ### Run packer to generate Amazon AMI
 
-+++?terminal=assets/sessions/packer-build-aws.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=packer build - Windows on AWS
++++?terminal=assets/sessions/packer-build-aws.cast&theme=solarized-light&color=#7FDBFF&font=medium&title=packer build - Windows on AWS
 
 ---?code=Demos/3/first_run.json&lang=json&title=Parallel packer build
 @title[Parallel packer build]
@@ -187,7 +187,7 @@
 
 ### Run packer in parallel
 
-+++?terminal=assets/sessions/packer-build-parallel.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=packer build - Linux on AWS and DigitalOcean
++++?terminal=assets/sessions/packer-build-parallel.cast&theme=solarized-light&color=#7FDBFF&font=medium&title=packer build - Linux on AWS and DigitalOcean
 
 ---?code=Demos/4/windows_10.json&lang=json&title=Virtualbox packer build
 @title[Virtualbox packer build]
@@ -204,7 +204,7 @@
 
 ### Generate Virtualbox box
 
-+++?terminal=assets/sessions/packer-build-virtualbox.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=packer build - virtualbox to vagrant
++++?terminal=assets/sessions/packer-build-virtualbox.cast&theme=solarized-light&color=#7FDBFF&font=medium&title=packer build - virtualbox to vagrant
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What is Terraform?]
@@ -250,7 +250,7 @@
 
 ### Running Terraform Apply
 
-+++?terminal=assets/sessions/terraform-apply.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=terraform apply
++++?terminal=assets/sessions/terraform-apply.cast&theme=solarized-light&color=#7FDBFF&font=medium&title=terraform apply
 
 ---?color=beige
 @title[Demo - Terraform Destroy]
@@ -259,7 +259,7 @@
 
 ### Running Terraform Destroy
 
-+++?terminal=assets/sessions/terraform-destroy.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=terraform destroy
++++?terminal=assets/sessions/terraform-destroy.cast&theme=solarized-light&color=#7FDBFF&font=medium&title=terraform destroy
 
 ---?color=beige
 @title[Demo - Vagrant add]
@@ -268,11 +268,11 @@
 
 ### Adding newly created box to vagrant
 
-+++?terminal=assets/sessions/vagrant-box-add.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant box add
++++?terminal=assets/sessions/vagrant-box-add.cast&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant box add
 
-+++?terminal=assets/sessions/vagrant-up-local.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant up local
++++?terminal=assets/sessions/vagrant-up-local.cast&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant up local
 
-+++?terminal=assets/sessions/vagrant-destroy.cast&autoplay=true&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant destroy
++++?terminal=assets/sessions/vagrant-destroy.cast&theme=solarized-light&color=#7FDBFF&font=medium&title=vagrant destroy
 
 ---?color=beige
 @title[Demo - Bringing it all together]
